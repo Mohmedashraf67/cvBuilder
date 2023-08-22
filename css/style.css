@@ -1,0 +1,316 @@
+
+
+
+.naV-BORDER{
+    border-bottom: 1px solid white;
+    z-index: 999999 !important;
+    transition: all 0.5s;
+
+}
+.naV-BORDER-color{
+    background-color: transparent !important;
+}
+.naV-BORDER-color-black{
+    background-color: black !important;
+   
+    transition: all 0.5s;
+}
+.navLink-color{
+    color: white !important;
+}
+.icons-nav a {
+    color: white;
+   
+}
+
+
+.carousel-item-content{
+ 
+    height: 100vh;
+    background-image: url(../images/slideshow-1.jpg);
+background-attachment: fixed;
+background-position: center center;
+background-size:cover ;
+   
+}
+.carousel-item-content1 {
+    height: 100vh;
+    background-image: url(../images/slideshow-2.jpg);
+background-attachment: fixed;
+background-position: center center;
+background-size:cover ;
+}
+.carousel-item-content2{
+    height: 100vh;
+    background-image: url(../images/bus\ 2.jpg);
+background-attachment: fixed;
+background-position: center center;
+background-size:cover ;
+}
+.carousel-item-content h1{
+    font-size: 4.5rem;
+}
+.carousel-item-content1 h1{
+    font-size: 5rem;
+}
+.carousel-item-content2 h1{
+    font-size: 5rem;
+}
+.carsol-btn-item{
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    top: 18rem;
+    border: 1px solid white;
+}
+.carsol-btn-item1{
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    top: 21rem;
+    left: 0;
+    border: 1px solid white
+}
+.navbar .container-fluid .collapse  ul  li a{
+  transition: all 1s;  
+}
+
+.navbar .container-fluid .collapse  ul  li a :hover {
+    color: #f25454;
+    
+}
+.container-fluid .navbar-collapse ul li {
+    transition: all 0.3s;  
+}
+.container-fluid .navbar-collapse ul li :hover {
+    color: #f25454;
+}
+
+.yy{
+    background-color: white !important;
+}
+.nav-left-imag-inblkack
+{
+background-color: black;
+}
+
+.iconsInNavScrolled-after-scroll{
+    color: black !important;
+}
+
+
+
+
+.text-sm-screen{
+    font-size:4.1rem !important;
+} 
+/* about page  */
+#toaboutpage i {
+    color: #f25454;
+}
+.line-under-words{
+    width: 7%;
+    height: 1px;
+    transform: 2s all;
+    transition-duration: 1s;
+}
+.on-hov:hover  .line-under-words {
+    width: 20%;
+    transform: 2s all ease-in-out;
+    transition-duration: 1s;
+}
+.letters-in-background{
+    position: absolute;
+    left: 37%;
+    top: 0%;
+    z-index: -1;
+    
+}
+.letters-in-background h1 {
+    font-size: 4.6rem;
+    color: #f2f2f2;
+}
+
+
+/* our team page  */
+.button-our-page{
+    width: 9rem;
+    border: 0px;
+    font-size: 1.2rem;
+    background-color: #f25454;
+}
+.button-our-page a{
+    text-decoration: none;
+    color: white;
+}
+
+/* services page  */
+
+.bg-services-page{
+  background-color: #fafafa;  
+}
+.services-page-content i {
+    font-size: 1.8rem;
+    color: #f25454;
+}
+.service-item-inside p {
+    color: #666;
+}
+.place-edit{
+    top: 10% ;
+}
+.edite{
+    color: #f25454;
+}
+
+.carsol-bg{
+    background-image: url(../images/client-5.png);
+    border-radius: 50%;
+}
+
+button :hover {
+    background-color: #f38686;
+}
+
+.bg-in-card{
+    background-color: #f25454;
+    width: 100%;
+  height: 100%;
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s ease-out;
+   visibility: hidden;
+}
+.perant-card-hight:hover .bg-in-card {
+    top: 0px;
+    transition-property: all;
+    transition-duration: 0.3s ;
+    
+    transition-timing-function: ease-in-out;
+    opacity: 55%; 
+     visibility: visible;
+}
+.perant-card-hight:hover img {
+    transition-property: all;
+    transition-duration: 0.7s;
+    transform: scale(1.2);
+
+}
+
+
+/* blog page  */
+.carousel-indicators [data-bs-target]{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    text-indent: 0;
+   
+}
+.btn1-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.carousel-indicators button img {
+    border-radius: 50%;
+}
+.carsol-font-size{
+    font-size: 2rem;
+}
+/* footer page  */
+.footer-head{
+    background-color: black;
+    background-image: url(../images/dotted-map.png);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size:cover ;
+    height: 70%;
+    
+}
+.icons a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+/* loading  */
+#loadding{
+    z-index: 999999999999999999999999999999999999999;
+}
+.spinner {
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+  
+    margin: 100px auto;
+    -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+    animation: sk-rotateplane 1.2s infinite ease-in-out;
+  }
+  
+  @-webkit-keyframes sk-rotateplane {
+    0% { -webkit-transform: perspective(120px) }
+    50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+    100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+  }
+  
+  @keyframes sk-rotateplane {
+    0% { 
+      transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+    } 50% { 
+      transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+    } 100% { 
+      transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+      -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
+  }
+
+
+
+
+
+
+  @import url('https://fonts.googleapis.com/css?family=Rubik:500');
+
+
+
+.buttoninn {
+    font-family: 'Rubik', sans-serif;
+ padding: 13px;
+border: transparent solid 1px;
+  line-height: 1.1;
+  background: #FC6E51;
+  color: white;
+  font-size: 13px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  transition: all 0.6s ease;
+  overflow: hidden;
+text-decoration: none;
+
+
+}
+.buttoninn:hover {
+    transition: all 0.6;
+    box-shadow: 1px 1px 9px 3px rgba(0,0,0,0.5);
+}
+
+
+
+
+/* form  */
+.fullForm{
+    width: 80%;
+    height: 100%;
+}
+
+
+
+
+/* #resumBulider{
+    z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+} */

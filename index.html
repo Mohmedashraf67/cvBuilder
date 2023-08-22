@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>cv builder</title>
+    
+</head>
+<body>
+
+<!-- <section id="loadding" class="d-none" >
+  <div id="loading " class="w-100 h-100 position-fixed start-0 end-0 bg-info">
+    <div class="spinner"></div>
+  </div>
+
+</section> -->
+
+
+
+
+
+<!-- nav bar  -->
+
+<nav id="navoo"  class="timeToDisapear navbar navbar-expand-lg bg-body-tertiary naV-BORDER naV-BORDER-color   xx position-fixed start-0 end-0 ">
+  <div class="container-fluid ">
+    <div id="navLeftImag" class="nav-left-imag">
+    
+    <h1 class="text-white" >cvBuilder</h1>
+  </div>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 p-2  mb-lg-0">
+        <li class="nav-item px-3">
+          <a class="nav-link active" aria-current="page" href="#to-home-page"><span class="text-danger">Home</span></a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link active" aria-current="page" href="#toaboutpage">About</a>
+        </li>
+         <li class="nav-item px-2">
+          <a class="nav-link active" aria-current="page" href="#to-our-team-page">Team</a>
+        </li>
+         <li class="nav-item px-2">
+          <a class="nav-link active" aria-current="page" href="#to-services-page">Services</a>
+        </li>
+ 
+         <li class="nav-item px-2">
+          <a class="nav-link active" aria-current="page" href="#to-contact-page">Contact</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link active" aria-current="page" href="#toFooter">Blog</a>
+        </li>
+   
+        <li id="iconsInNavScrolled" class="nav-item px-3 icons-nav py-1">
+          <a href=""> <i class="fab fa-twitter fa-fw"></i></a>
+        <a href=""><i class="fab fa-facebook-f fa-fw"></i></a>
+        <a href=""><i class="fab fa-instagram fa-fw"></i></a>
+        </li>
+        
+      </ul>
+  
+    </div>
+  </div>
+</nav>
+
+
+<!-- home page  -->
+<header class="timeToDisapear" id="to-home-page">
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2100">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+             <div class="carousel-item-content  d-flex justify-content-center align-items-center">
+          <h1 class="text-light text-sm-screen  w-50 h-25">We help you to build
+            greatness <br> <button onclick="bolbol(0)" class="buttoninn m-2">let's start</button></h1> 
+        </div>
+      </div>
+      <div class="carousel-item">
+             <div class="carousel-item-content1  d-flex justify-content-center align-items-center">
+          <h1 class="text-light  w-50 h-25">Focused
+            on strategy..</h1> 
+        </div>
+      </div>
+      <div class="carousel-item">
+             <div class="carousel-item-content2  d-flex justify-content-center align-items-center">
+          <h1 class="text-light  w-50 h-25">Advanced in
+             works.</h1> 
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev carsol-btn-item text-left" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next  carsol-btn-item1" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- <div id="carouselExampleRide" class="carousel slide position-relative">
+
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <div class="carousel-item-content  d-flex justify-content-center align-items-center">
+          <h1 class="text-light  w-50 h-25">We help you to build
+            greatness <br> <button class="buttoninn">let's start</button></h1> 
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-item-content1  d-flex justify-content-center align-items-center">
+          <h1 class="text-light  w-50 h-25">Focused
+            on strategy..</h1> 
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-item-content2  d-flex justify-content-center align-items-center">
+          <h1 class="text-light  w-50 h-25">Advanced in
+             works.</h1> 
+        </div>
+      </div>
+    </div>
+    
+         <button class="carousel-control-prev carsol-btn-item text-left" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+    
+   
+    
+  
+    <button class="carousel-control-next  carsol-btn-item1 " type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div> -->
+ 
+</header>
+
+
+
+<!-- about page  -->
+
+<section  class="timeToDisapear" id="toaboutpage"> 
+ 
+  <div class="about-content w-100 m-auto  pt-4 mt-5 mb-3 position-relative on-hov" >
+    <div class="letters-in-background w-25 text-center m-auto">
+      <h1>A</h1>
+    </div>
+    <div class="about-head w-50 m-auto text-center">
+      <h1 class="pb-1 "> ABOUT US </h1>
+      <div class="line-under-words m-auto bg-black mb-2">
+              
+      </div>
+      <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipiset accusantium pcabo eum illum volndiso at vus delectus soluta, dignissimos in unde eum necessitatibus, possimus iste totam. Amet porro quam tempore dignissimos quia fugiat laborum eum provident atque quasi beatae error voluptate eligendi unde, nesciunt necessitatibus deleniti reprehenderit at, quis, doloremque quaerat veritatis cum fugit! Natus nisi quam nobis exercitationem quod deserunt ratione non, quas at ut. Natus aspernatur nulla vel repellendus ratione necessitatibus obcaecati laborum ullam maxime voluptatibus! Blanditiis illum qui tenetur, quia neque quisquam corporis, dolorem tempora voluptas at, voluptate ex! Laudantium saepe ipsum expedita, obcaecati deserunt doloribus minus illum officia fuga sequi temporibus aut, at veritatis nihil aliquid reiciendis magni dolore consectetur, quae dicta? Nemo eaque distinctio quasi soluta iure, cupiditate amet fugiat ex, provident at pariatur quam dicta ullam deserunt molestiae omnis neque facere magnam quos? Est et illo eaque aspernatur. Deleniti magnam ea sapiente nostrum similique veritatis perspiciatis fuga! Eveniet impedit cumque earum sapiente ab nam, voluptate numquam possimus quo reprehenderit delectus! Optio eos mollitia, cupiditate enim amet esse est consectetur reiciendis dignissimos aliquam dolorum architecto corporis aperiam ipsam eligendi fuga, maiores itaque adipisci dicta. Nihil ipsum adipisci rem eaque suscipit! Exercitationem iure velit nam. Corporis atque deserunt commodi vel officiis amet in recusandae deleniti dolores doloribus ullam laboriosam exercitationem rerum itaque aut fugiat nisi, voluptatem quasi eos vitae eaque?</p>
+    </div>
+
+</section>
+
+
+
+<!-- our team page -->
+<section class="timeToDisapear" id="to-our-team-page">
+  <div class="our-team-home-page mt-5 pt-2 position-relative on-hov">
+    <div class="our-team-content w-75 m-auto  pt-4 mt-5 pt-5">
+      <div class="our-team-head w-50 m-auto text-center">
+        <h1 class="pb-1 "> Our Team </h1>
+        <div class="letters-in-background place-edit w-25 text-center m-auto">
+          <h1>O</h1>
+        </div>
+        <div class="line-under-words m-auto bg-black mb-2">
+                
+        </div>
+        <p class="text-center">Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt urna imperdiet tincidunt rhoncus. Sed mollis ligula non massa aliquam faucibus.</p>
+        
+      </div>
+    <div class="container text-center mb-2">
+    <div class="row h-100">
+    <div class="col-md-4 ">
+   
+      <div class="card overflow-hidden " >
+       <div class="perant-card-hight overflow-hidden w-100 position-relative">
+        
+          <img src="images/1s soc.jpg" class="card-img-top  " alt="...">
+       <div class="bg-in-card d-flex justify-content-center align-items-center">
+        <div class="icons ">
+          <a href=""> <i class="fab fa-twitter fa-fw"></i></a>
+          <a href=""><i class="fab fa-facebook-f fa-fw"></i></a>
+          <a href=""><i class="fab fa-instagram fa-fw"></i></a>
+          <a href=""><i class="fab fa-dribbble fa-fw" ></i></a>
+          
+         </div>
+        </div>
+      </div>
+       
+      
+        <div class="card-body ">
+          <h6 class="card-title"> <br> Ahmed Ibrahem Mohammed Abd Elsalam</h6>
+          <p class="card-text">Web Designer</p>
+          
+        </div> 
+        
+      </div>
+      
+      
+    </div>
+    <div class="col-md-4 ">
+      <div class="card overflow-hidden " >
+        <div class="perant-card-hight overflow-hidden w-100 position-relative">
+         
+           <img src="images/tems.jpg" class="card-img-top  " alt="...">
+        <div class="bg-in-card d-flex justify-content-center align-items-center">
+          <div class="icons">
+            <a href=""> <i class="fab fa-twitter fa-fw"></i></a>
+            <a href=""><i class="fab fa-facebook-f fa-fw"></i></a>
+            <a href=""><i class="fab fa-instagram fa-fw"></i></a>
+            <a href=""><i class="fab fa-dribbble fa-fw" ></i></a>
+            
+           </div>
+         </div>
+       </div>
+        
+       
+         <div class="card-body ">
+           <h6 class="card-title">Mohamed Ahmed Calem</h6>
+           <p class="card-text">Web Designer</p>
+           
+         </div> 
+         
+       </div>
+       
+    </div>
+    <div class="col-md-4 ">
+      <div class="card overflow-hidden " >
+        <div class="perant-card-hight overflow-hidden w-100 position-relative">
+         
+           <img src="images/3st.jpg" class="card-img-top  " alt="...">
+        <div class="bg-in-card d-flex justify-content-center align-items-center">
+          <div class="icons">
+            <a href=""> <i class="fab fa-twitter fa-fw"></i></a>
+            <a href=""><i class="fab fa-facebook-f fa-fw"></i></a>
+            <a href=""><i class="fab fa-instagram fa-fw"></i></a>
+            <a href=""><i class="fab fa-dribbble fa-fw" ></i></a>
+          
+           </div>
+         </div>
+       </div>
+        
+       
+         <div class="card-body ">
+           <h6 class="card-title">Ramy Nady Atyia Abdelmguid</h6>
+           <p class="card-text">Web Designer</p>
+           
+         </div> 
+         
+       </div>
+       
+    </div>
+ 
+    
+    
+  
+    </div>
+    
+    
+    
+    </div>
+    <div class="row pt-4 mt-5">
+
+      <div class=" d-flex justify-content-between mt-3 ">
+        <h2>Do you have any ideas?</h2>
+        <button class="text-light   button-our-page"><a href="">contact us</a></button>
+      
+      
+      
+      
+      
+      
+      </div>
+
+
+
+
+    </div>
+    
+    
+    
+  </div>
+</section>
+
+
+
+
+<!-- services page  -->
+
+<section class="timeToDisapear" id="to-services-page">
+  <div class="services-page-content bg-services-page position-relative on-hov ">
+  <div class="about-head w-50 m-auto text-center mt-5 pt-5">
+    <h1 class="pb-1 "> Services </h1>
+    <div class="letters-in-background edite w-25 text-center m-auto">
+      <h1>S</h1>
+    </div>
+    <div class="line-under-words m-auto bg-black mb-2">
+            
+    </div>
+    <p class="text-center">Easiest and most feature-packed <br> CV builder available</p>
+
+  </div>
+ 
+  <div class="container bg-light-yellow w-75 mt-3">
+
+    <div class="row dashboard-text-wrap mt-3">
+       <div class="col-md-6 texts-wraper">
+          <div class="inner-part">
+            
+                       <div class="inner-part-child">
+                 <h3> <i class="fa-solid fa-stairs "></i> cvBuilder</h3>
+                 
+                     <p>Easy to use cvBuilder enables you to create a well-polished, professional CV in minutes. Impress. Save time.</p>
+                                             
+             </div>
+          </div>
+             
+       </div>
+       <div class="col-md-6 texts-wraper">
+          <div class="inner-part">
+           
+            <div class="inner-part-child">
+                 <h3> <i class="fa-solid fa-list-check "></i>Pre-written content</h3>
+                  
+                     <p>Make your CV more sophisticated. Select from thousands of pre-written bullet points for hundreds of jobs and careers. Just click and insert them directly into your CV! </p>
+                                              
+           </div>
+             
+          </div>
+            
+       </div>
+       <div class="col-md-6 texts-wraper">
+          <div class="inner-part">
+            
+              <div class="inner-part-child">
+                 <h3><i class="fa-solid fa-file-lines "></i>Expert tips &amp; guidance</h3>
+                  
+                     <p>Get detailed CV-building tips and advice every step of the way. CV pro or beginner - we've got you covered.</p>
+                                              
+          </div>
+          </div>
+           
+       </div>
+        <div class="col-md-6 texts-wraper">
+          <div class="inner-part">
+           
+               <div class="inner-part-child">
+                 <h3> <i class="fa-solid fa-file-export "></i>Unlimited CVs &amp; Downloads</h3>
+                  
+                     <p>No limit on the number of CVs you can create. Unlimited printing, sharing and downloading in PDF, Word, plain text or image formats. Limitless creativity.</p>
+                                              
+                 </div>
+          </div>
+           
+       </div>
+    </div>
+    
+ </div>
+
+</div>
+</section>
+
+
+
+<!-- contact page -->
+<section class="timeToDisapear" id="to-contact-page">
+  <div class="contact-content bg-services-page">
+    <div class="contact-head w-50 m-auto text-center mt-5 pt-5 mb-3 on-hov">
+      <h1 class="pb-1 "> Get In Touch </h1>
+      <div class="line-under-words m-auto bg-black mb-2">
+              
+      </div>
+      <p>Donec purus est, tincidunt eu sodales quis, vehicula quis enim. Morbi dapibus, tellus a gravida faucibus, elit ipsum sollicitudin risus, id ultricies arcu neque eget velit.</p>
+    
+    </div>
+    <div class="row-content-page p-4">
+      <div class="row w-75 m-auto mt-3">
+        <div class="col-md-6">
+        <h2>Get answers and advices from professional consultants.</h2>
+        <h5>Address</h5>
+        <p>1650 example Street, city, CA 94123</p>
+        <hr>
+        <h5>phone</h5>
+        <p>+7 992 333-27-66</p>
+        <hr>
+        <h5>Say Hello</h5>
+        <p>mohameahmed2026@gmail.com</p>
+        
+        
+        </div>
+        
+        
+        <div class="col-md-6">
+        <form >
+        <input class="w-100 p-2 mb-2 border-form" type="text" placeholder="NAME">
+        <input class="w-100 p-2 mb-2" type="email"placeholder='Email'>
+        <input class="w-100 p-2 mb-2" type="number" placeholder="phone number">
+        <textarea class="w-100" name="message" id="" cols="40" rows="5"></textarea>
+        <button class="button-our-page "><a href="">send message</a></button>
+        </form>
+        
+        </div>
+        
+        </div>
+    </div>
+    
+      
+  </div>
+
+</section>
+
+
+
+
+
+<!-- footer page  -->
+<footer id="toFooter" class="timeToDisapear">
+  <div class="footer-head ">
+    <div class="footer-img m-auto w-25 p-3 mb-5 text-center ">
+    </div>
+    <div class="container  w-75 ">
+      <div class="row g-5">
+        <div class="footer-content-item  col-md-3 text-light">
+          <h4>Contact Info</h4>
+          <p>1650 Lombard Street,
+            San Francisco, CA 94123
+          </p>
+          <p>
+            +1 (415) 876-3250
+            email@sitename.com
+          </p>
+        </div>
+        <div class="footer-content-item  col-md-3 text-light">
+          <h4>Useful Links</h4>
+          <p>1650 Lombard Street,
+            San Francisco, CA 94123
+          </p>
+          <p>
+            +1 (415) 876-3250
+            email@sitename.com
+          </p>
+        </div>
+        <div class="footer-content-item  col-md-3 text-light">
+          <h4>Recent Posts</h4>
+          <p>Sunset in Venice
+            Aerial View of Village
+            Lighted Concrete City
+            The Little Ghost
+            Royal Oats ft. Waldo
+          </p>
+        
+        </div>
+        <div class="footer-content-item  col-md-3 text-light">
+          <h4>Popular Tags</h4>
+          <p>1650 Lombard Street,
+            San Francisco, CA 94123
+          </p>
+          <p>
+            +1 (415) 876-3250
+            email@sitename.com
+          </p>
+        </div>
+     
+      </div>
+  
+      <div class="end-page w-100 h-25 bg-black pt-4 d-flex justify-content-around text-light">
+        <div class="icons">
+         <a href=""> <i class="fab fa-twitter fa-fw"></i></a>
+         <a href=""><i class="fab fa-facebook-f fa-fw"></i></a>
+         <a href=""><i class="fab fa-instagram fa-fw"></i></a>
+         <a href=""><i class="fab fa-dribbble fa-fw" ></i></a>
+         <a href=""><i class="fab fa-pinterest fa-fw"></i></a>
+        </div>
+   
+        </div>
+       </div>
+    
+        
+    </div>
+
+
+
+    
+
+</footer>
+ 
+
+
+<!-- cv builder section -->
+<div class="" style="display: none;" id="resumBulider">
+  <div class="d-flex ">
+     <h2 class="m-auto text-center">CV Builder</h2> 
+     <i onclick="bolbol(1)" class="fa-regular fa-circle-xmark fa-2x text-danger">  </i> 
+
+  </div>
+  
+<div class="fullForm m-auto">.
+<div class="container position-relative w-100">
+  <form action="">
+    <div class="row">
+  <h3>personal information</h3>
+
+  <div class="col md-6">
+
+<div class="inputsPesonal ">
+
+     <h6> uplode your image</h6>
+     
+     <input id="personImage" type="file"  id="fileInput" class="form-control" /> <br>
+  <label for="Name">Your Name</label>
+<input id="Name" class="input-group form-control"  type="text" placeholder="Enter here" required>
+<label for="Contact">Your Contact</label>
+<input id="Contact" class="input-group form-control"  type="text" placeholder="Enter here" required>
+<label for="Adress">Your Adress</label> <br>
+<textarea class="form-control" name="" id="Adress" cols="40" rows="3" placeholder="Enter here" required></textarea>
+<label for="Acadimic">Acadimic Qualifications</label> <br>
+<textarea class="form-control" name="" id="Acadimic" cols="40" rows="3" placeholder="Enter here" required></textarea>
+<label for="date">graduation date (not necessory)</label>
+<input id="date" type="date" class="form-control">
+
+</div>
+<div class="inputsLinks">
+  <h4>Important Links</h4>
+  <label for="Facebook">Facebook</label>
+  <input id="Facebook" class="input-group form-control"  type="text" placeholder="Enter here" required>
+  <label for="Linkedin">Linkedin</label>
+  <input id="Linkedin" class="input-group form-control"  type="text" placeholder="Enter here" required>
+  <label for="github">github</label> 
+  <input id="github" class="input-group form-control"  type="text" placeholder="Enter here" required>
+</div>
+
+</div>
+
+
+<div class="col md-6">
+  <div class="inputsPesonal">
+   <label for="Objective">Objective</label> <br>
+   <textarea class="form-control" name="" id="Objective" cols="40" rows="3" placeholder="Enter here"></textarea>
+  <label for="Experince">Work Experince</label> <br>
+  <textarea class="form-control" name="" id="Experince" cols="40" rows="3" placeholder="Enter here"></textarea>
+
+  </div>
+  <div class="inputSkills mt-2">
+      <h4 class="">skills</h4>
+      <label for="skills">skills you have</label> <br>
+     <textarea class="form-control" name="" id="skills" cols="40" rows="3" placeholder="Enter here"></textarea>
+  </div>
+
+</div>
+
+</div>
+
+<button type="submit" onclick="genPDF()" class="btn btn-outline-primary align-self-center mt-4  position-absolute start-50"> generate CV</button>
+  </form>
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+ <script src="js/bootstrap.bundle.js"></script>
+ <script src="js/jquery-3.6.3.js"></script>
+ <script src="js/index.js"></script>
+ <script src="jsPDF-1.3.2/dist/jspdf.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+@media screen and (max-width:600px) {
+    .text-sm-screen{
+        font-size: 10px !important;
+    } 
+}
+@media screen and (min-width:601px) and (max-width:768px){
+    .text-sm-screen{
+        font-size: 10px !important;
+    } 
+}
